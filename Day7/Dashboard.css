@@ -1,0 +1,111 @@
+.dash-topcontainer
+{
+    margin-top:1cm;
+    width: 100%;
+    border-radius:30px;
+    display: flex;
+    flex-wrap: wrap;
+    height:10cm;
+    background-image: url("../images/dashimage.jpg");
+    background-size: cover;
+    width: 100%; /* or set a specific width */
+    height: 300px; /* or set a specific height */
+    background-size: cover; /* This property ensures that the background image covers the entire container */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat;
+}
+.dash-subcontainer1
+{
+    height:6cm;
+    width:7cm;
+    box-shadow:10px 10px rgba(110, 210, 243, 0.978);
+    border-radius: 20px;
+    background-color: rgb(4, 114, 193);
+    color:white;
+    margin-top:1cm;
+    margin-left:3cm;
+}
+.dash-subcontainer1 h1
+{
+    margin-left:1cm;
+    font-size:1cm;
+    margin-top:-0.2cm;
+}
+.dash-subcontainer1 h2
+{
+    font-size:1cm;
+    color:white;
+    margin-top:0.1cm;
+    margin-left:2cm;
+}
+.dash-subcontainer1 img
+{
+    height:1cm;
+    width:1cm;
+    margin-left:5.5cm;
+    margin-top:0.8cm;
+}
+.dash-container
+{
+    height:20cm;
+    width:29cm;
+    background-image: url("../images/dash2.jpg");
+    border-radius:20px;
+    padding:50px;
+    margin-top:-13cm;
+    margin-left:8cm;
+    
+}
+.dash-subcontainer2
+{
+    display: flex;
+    height:1.5cm;
+    margin-top:0.5cm;
+    box-shadow:10px 5px rgb(57, 125, 177)    ;
+    background-color: white;
+    border-radius:10px;
+    width:30cm;
+}
+.dash-design h2
+{
+    font-size:0.8cm;
+    display: inline;
+    color: rgb(95, 8, 51);
+    padding-right:90px;
+    margin-left: 1cm;
+    
+}
+.dash-design img
+{
+    height:0.7cm;
+    width:0.7cm;
+    margin-left:2cm;
+}
+.dash-design button
+{
+    border-radius:30px;
+    margin-top:0.5cm;
+    margin-left:0.6cm;
+    background-color:green;
+}
+.dash-sidepanel
+{
+    height:11cm;
+    width:6cm;
+    color:black;
+    box-shadow:10px 10px rgb(9, 40, 80);
+    background-color: rgba(173, 216, 230, 0.395);
+    text-align: center;
+    margin-left:0cm;
+    border-radius:10px;
+    padding:20px;
+    margin-top:2cm;
+}
+.dash-sidepanel h1
+{
+    font-size:0.9cm;
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom:5px solid rgb(6, 52, 87);
+    cursor: pointer;
+    padding:0.3cm;
+}
