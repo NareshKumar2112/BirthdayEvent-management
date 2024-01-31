@@ -1,0 +1,110 @@
+/* Navbar.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(1, 16, 34);
+  padding:15px;
+  color:white;
+  border-radius:2cm;
+}
+.navbar li a{
+    color:sandybrown;
+    font-size:20px;
+    text-decoration: none;
+}
+
+.navbar li a:hover{
+    font-size:20px;
+    color:white;
+    border-width:20px;
+    text-shadow:2px;
+    text-decoration: none;
+}
+.sidebar
+{
+  height:11cm;
+  width:7cm;
+  background-color:rgba(16, 36, 54, 0.984);
+  color:white;
+  text-align: center;
+  margin-left:0cm;
+  border-radius:10px;
+  padding:20px;
+  margin-top:2cm;
+}
+.nav-links li:active
+{
+  color:white;
+}
+.menu-icon img
+{
+    height:1cm;
+    cursor: pointer;
+    border-radius:1px;
+    margin-left:2cm;
+    margin-top:-3cm;
+    width:1cm;
+    background-color:white;
+}
+.name span{
+  margin-left:4cm;
+  font-size:1.5cm;
+}
+.logo {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-left:5cm;
+}
+
+.logo img
+{
+  max-width:2.9cm;
+  max-height:2.9cm;
+  border-radius:100px;
+  align-items:left;
+}
+
+.app-name {
+  color: white;
+  text-decoration: blink;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  font-size:20px;
+}
+
+.nav-item{
+  margin: 0 15px;
+  color: sandybrown;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  color:black;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius:0.5cm;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+  color:black
+}
+
+.dropdown-content a {
+  background-color:black;
+  border-radius:0.5cm;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
